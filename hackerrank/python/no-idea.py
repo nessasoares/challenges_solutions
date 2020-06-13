@@ -7,8 +7,6 @@ class Happiness():
         like = set(A)
         dislike = set(B)
 
-        
-
         diff_like = self.array.intersection(like)
         like_mood = len(diff_like)
 
