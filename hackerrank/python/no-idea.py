@@ -17,9 +17,6 @@ class Happiness():
         diff_dislike =  [self.counter[element] for element in dislike.intersection(self.array)]
         dislike_mood = sum(diff_dislike)
 
-        print(like_mood)
-        print(dislike_mood)
-        
         self.happiness = like_mood - dislike_mood
 
         return self.happiness
