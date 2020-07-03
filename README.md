@@ -5,6 +5,7 @@ Repositório criado com as minhas resoluções de problemas que resolvo. Eles es
 - [HackerEarth](https://www.hackerearth.com)
 - [LeetCode](https://leetcode.com/)
 - [educative.io](https://www.educative.io/learn)
+- [Codility](https://app.codility.com/programmers/)
 
 O nome do arquivo é referente ao nome do problema, pra ficar mais fácil de encontrar. :D
 Além disso, alguns tópicos do HackerEarth tem explicações, como complexidades por exemplo. Nesses casos, eu fiz algumas anotações sobre o que tem lá, além do link que contém a explicação deles.
