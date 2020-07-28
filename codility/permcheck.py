@@ -2,12 +2,18 @@ import pytest
 
 def is_permutation(A):
     result = 0
-    sorted_array = list(set(A))
-    if len(A) == 1:
+    sorted_array = sorted(list(set(A)))
+
+    if len(sorted_array) != len(A):
         result = 0
-    difference = sorted_array[-1] - sorted_array[0]
-    if difference == len(sorted_array)-1:
-        result = 1
+    elif sorted_array[0] > 1:
+        result = 0
+    elif len(sorted_array) == 1:
+        result = 0
+    else:
+        difference = abs(sorted_array[-1] - sorted_array[0])
+        if difference == len(sorted_array)-1:
+            result = 1
 
     return result
 
@@ -28,7 +34,7 @@ class Test_PermCheck():
     
     def test_reapeated_elements(self):
         array = [1,2,2,3,4]
-        assert 1 == is_permutation(array)
+        assert 0 == is_permutation(array)
 
         array = [1,2,2,5,6,4,7,8,9,12,20]
         assert 0 == is_permutation(array)
