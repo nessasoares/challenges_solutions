@@ -2,17 +2,12 @@ import pytest
 from collections import Counter
 
 def checkMagazine(magazine, notes):
-    magazine_dict = Counter(magazine)
-    canWrite = True
+    magazine_counter = Counter(magazine)
+    notes_counter = Counter(notes)
 
-    for word in notes:
-        if word in magazine_dict.keys() and magazine_dict[word] > 0:
-            magazine_dict[word] -= 1
-        else: 
-            canWrite = False
-            break; 
+    canWrite = notes_counter - magazine_counter
 
-    result = 'Yes' if canWrite else 'No'
+    result = 'Yes' if len(canWrite) == 0 else 'No'
     print(result)
 
     return result
