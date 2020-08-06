@@ -1,0 +1,1056 @@
+{
+    "": {
+        "phases": []
+    }, 
+    "maneuver_conditioning_after_profiling_options/not_conditioning": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "attribute_name": "maneuver_conditioning_after_profiling_options/item/3", 
+        "name": "maneuver_conditioning_after_profiling_options/not_conditioning", 
+        "label": "Não condicionar poço após perfilagem"
+    }, 
+    "enlargement_tax": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "enlargement_tax", 
+        "valueType": "number", 
+        "label": "Taxa de alargamento", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "offset_enlargement": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "offset_enlargement", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Alargamento do off-set broca-alargador"
+    }, 
+    "drilling/has_open_well_completion": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling/has_open_well_completion", 
+        "phases": [], 
+        "label": "Será realizada completação à poço aberto"
+    }, 
+    "project/total_phases": {
+        "valueType": "ref", 
+        "enum/values": [
+            "1", 
+            "2", 
+            "3", 
+            "4", 
+            "5", 
+            "6", 
+            "7", 
+            "8", 
+            "9"
+        ], 
+        "name": "project/total_phases", 
+        "phases": [], 
+        "label": "Total de fases"
+    }, 
+    "has_profiling_cementing_assessment": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_profiling_cementing_assessment", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Tem perfilagem para avaliação de cimentação"
+    }, 
+    "drilling/pilot_well_depth": {
+        "phases": [], 
+        "name": "drilling/pilot_well_depth", 
+        "valueType": "number", 
+        "label": "Prof. Poço de Perfuração", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "coating_cement_completion": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "coating_cement_completion", 
+        "valueType": "number", 
+        "label": "Comp. de Cimento no interior do Revest./ Liner", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "element/drilling_tax": {
+        "phases": [], 
+        "name": "element/drilling_tax", 
+        "valueType": "number", 
+        "label": "Taxa de perfuração", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "element/start": {
+        "phases": [], 
+        "name": "element/start", 
+        "valueType": "number", 
+        "label": "De", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "has_profiling": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_profiling", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Tem Perfilagem"
+    }, 
+    "drilling/negative_test": {
+        "phases": [], 
+        "name": "drilling/negative_test", 
+        "valueType": "ref", 
+        "label": "Teste Negativo", 
+        "enum/values": [
+            "test.method/1", 
+            "test.method/2", 
+            "test.method/3"
+        ], 
+        "cardinality": "one"
+    }, 
+    "torpedo_basis": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "torpedo_basis", 
+        "phases": [
+            "one"
+        ], 
+        "label": "Base Torpedo"
+    }, 
+    "install_rcd": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "install_rcd", 
+        "phases": [
+            "two"
+        ], 
+        "label": "Instalar RCD"
+    }, 
+    "drilling/normal_drilling": {
+        "phases": [], 
+        "name": "drilling/normal_drilling", 
+        "label": "Projeto Completo"
+    }, 
+    "mpd_use": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "mpd_use", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Uso de MPD"
+    }, 
+    "drilling_cement_tax": {
+        "phases": [
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "drilling_cement_tax", 
+        "valueType": "number", 
+        "label": "Taxa de perfuração cimento", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "drilling/data": {
+        "valueType": "ref", 
+        "cardinality": "one", 
+        "name": "drilling/data", 
+        "phases": [], 
+        "label": "Data"
+    }, 
+    "coring_rate": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "coring_rate", 
+        "valueType": "number", 
+        "label": "Taxa de testemunhagem", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "lot_extension_drilled": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "lot_extension_drilled", 
+        "valueType": "number", 
+        "label": "Extensão perfurada para LOT", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "barrel_size": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "barrel_size", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Comprimento do barrilete"
+    }, 
+    "coating_maneuver_tax": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "coating_maneuver_tax", 
+        "valueType": "number", 
+        "label": "Taxa de manobra de revestimento", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "openwell_profiling_time": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "openwell_profiling_time", 
+        "valueType": "number", 
+        "label": "Tempo de perfilagem a poço aberto", 
+        "number/unit": "h", 
+        "cardinality": "one"
+    }, 
+    "coating/coating": {
+        "phases": [
+            "one"
+        ], 
+        "attribute_name": "coating/item/33", 
+        "name": "coating/coating", 
+        "label": "Revestimento"
+    }, 
+    "jetting_tax": {
+        "phases": [
+            "one"
+        ], 
+        "name": "jetting_tax", 
+        "valueType": "number", 
+        "label": "Taxa de Jateamento", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "drilling/top_hole_drilling": {
+        "phases": [], 
+        "name": "drilling/top_hole_drilling", 
+        "label": "Top hole drilling"
+    }, 
+    "drilling/temporary_abandon": {
+        "valueType": "ref", 
+        "enum/values": [
+            "temporary_abandon_type/cement", 
+            "temporary_abandon_type/packer"
+        ], 
+        "name": "drilling/temporary_abandon", 
+        "phases": [], 
+        "label": "Tipos de abandono temporário"
+    }, 
+    "cable_descend_rate": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "cable_descend_rate", 
+        "valueType": "number", 
+        "label": "Taxa descida a cabo", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "has_jetting": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_jetting", 
+        "phases": [
+            "one"
+        ], 
+        "label": "Tem Jateamento"
+    }, 
+    "drilling/data/phases": {
+        "valueType": "ref", 
+        "cardinality": "many", 
+        "name": "drilling/data/phases", 
+        "phases": [], 
+        "label": "Fases"
+    }, 
+    "test.method/1": {
+        "phases": [], 
+        "attribute_name": "test.method/1", 
+        "name": "test.method/1", 
+        "label": "Método 1"
+    }, 
+    "test.method/3": {
+        "phases": [], 
+        "attribute_name": "test.method/3", 
+        "name": "test.method/3", 
+        "label": "Método 3"
+    }, 
+    "test.method/2": {
+        "phases": [], 
+        "attribute_name": "test.method/2", 
+        "name": "test.method/2", 
+        "label": "Método 2"
+    }, 
+    "coating_liner/coating": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "attribute_name": "coating_liner/item/33", 
+        "name": "coating_liner/coating", 
+        "label": "Revestimento"
+    }, 
+    "drilling/no_reentry": {
+        "phases": [], 
+        "name": "drilling/no_reentry", 
+        "label": "Sem reentrada"
+    }, 
+    "equivalent_flow_rate": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "equivalent_flow_rate", 
+        "valueType": "number", 
+        "label": "Vazão equivalente", 
+        "number/unit": "gpm", 
+        "cardinality": "one"
+    }, 
+    "has_coring": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_coring", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Com Testemunhagem"
+    }, 
+    "drilling/custom_phase/phase": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/custom_phase/phase", 
+        "phases": [], 
+        "label": "Fase"
+    }, 
+    "bottom_sampling": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "bottom_sampling", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Amostragem de fundo"
+    }, 
+    "maneuver_conditioning_after_profiling_options": {
+        "valueType": "ref", 
+        "enum/values": [
+            "maneuver_conditioning_after_profiling_options/dedicated_maneuver", 
+            "maneuver_conditioning_after_profiling_options/sleeve_recovery_conditioning", 
+            "maneuver_conditioning_after_profiling_options/not_conditioning"
+        ], 
+        "name": "maneuver_conditioning_after_profiling_options", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Opção de manobra de condicionamento após perfilagem"
+    }, 
+    "coating_liner": {
+        "valueType": "ref", 
+        "enum/values": [
+            "coating_liner/coating", 
+            "coating_liner/liner"
+        ], 
+        "name": "coating_liner", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Revestimento/Liner"
+    }, 
+    "coating_liner/liner": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "attribute_name": "coating_liner/item/34", 
+        "name": "coating_liner/liner", 
+        "label": "Liner"
+    }, 
+    "drilling/has_temporary_abandon": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling/has_temporary_abandon", 
+        "phases": [], 
+        "label": "Tem abandono temporário?"
+    }, 
+    "test_bop_with_sdr": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "test_bop_with_sdr", 
+        "phases": [
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Teste de BOP com SDR"
+    }, 
+    "has_dedicated_maneuver_packoff": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_dedicated_maneuver_packoff", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Será realizada manobra dedicada para instalação do Packoff"
+    }, 
+    "cementing_assessment_before_next_phase": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "cementing_assessment_before_next_phase", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Avaliação de cimentação antes da perfuração da próxima fase"
+    }, 
+    "temporary_abandon_type/packer": {
+        "phases": [], 
+        "attribute_name": "drilling/temporary_abandon_type/item/10", 
+        "name": "temporary_abandon_type/packer", 
+        "label": "Packer de Abandono"
+    }, 
+    "will_coat_phase_after_drilling": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "will_coat_phase_after_drilling", 
+        "phases": [
+            "coat", 
+            "coat", 
+            "coat", 
+            "coat", 
+            "coat", 
+            "coat", 
+            "coat"
+        ], 
+        "label": "Fase será revestida ao final da perfuração"
+    }, 
+    "rev_elements": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight"
+        ], 
+        "name": "rev_elements", 
+        "isComponent": true, 
+        "valueType": "ref", 
+        "label": "Coluna de revestimento", 
+        "cardinality": "many"
+    }, 
+    "maneuver_core_rate": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "maneuver_core_rate", 
+        "valueType": "number", 
+        "label": "Taxa de manobra do testemunho", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "with_enlargement": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "with_enlargement", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Com Alargamento"
+    }, 
+    "drilling_elements": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "drilling_elements", 
+        "isComponent": true, 
+        "valueType": "ref", 
+        "label": "Coluna de perfuração", 
+        "cardinality": "many"
+    }, 
+    "drilling/big_bore": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling/big_bore", 
+        "phases": [], 
+        "label": "Uso SCPS Large Bore"
+    }, 
+    "top_squeeze": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "top_squeeze", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Top Squeeze"
+    }, 
+    "maneuver_conditioning_after_profiling_options/dedicated_maneuver": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "attribute_name": "maneuver_conditioning_after_profiling_options/item/1", 
+        "name": "maneuver_conditioning_after_profiling_options/dedicated_maneuver", 
+        "label": "Manobra dedicada p/ condicionamento"
+    }, 
+    "bottom_coring": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "bottom_coring", 
+        "valueType": "number", 
+        "label": "Base da testemunhagem", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "has_msr": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "has_msr", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Possui MSR"
+    }, 
+    "maneuver_conditioning_after_profiling_options/sleeve_recovery_conditioning": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "attribute_name": "maneuver_conditioning_after_profiling_options/item/2", 
+        "name": "maneuver_conditioning_after_profiling_options/sleeve_recovery_conditioning", 
+        "label": "Recuperação de bucha + condicionamento (Manobra Combo)"
+    }, 
+    "temporary_abandon_type/cement": {
+        "phases": [], 
+        "attribute_name": "drilling/temporary_abandon_type/item/9", 
+        "name": "temporary_abandon_type/cement", 
+        "label": "Tamp�o de cimento"
+    }, 
+    "drilling_with_simultaneous_enlargement": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling_with_simultaneous_enlargement", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Perfuração com alargamento simultâneo"
+    }, 
+    "drilling/is_pilot": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling/is_pilot", 
+        "phases": [], 
+        "label": "Haverá poço de investigação?"
+    }, 
+    "drill_elements": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "drill_elements", 
+        "isComponent": true, 
+        "valueType": "ref", 
+        "label": "Brocas", 
+        "cardinality": "many"
+    }, 
+    "drilling/water_level": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/water_level", 
+        "phases": [], 
+        "label": "Water Level"
+    }, 
+    "drilling/outdated_pocoweb_file_links": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/outdated_pocoweb_file_links", 
+        "phases": []
+    }, 
+    "final_depth": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "final_depth", 
+        "valueType": "number", 
+        "label": "Profundidade final da fase", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "must_change_bha_before_enlargement": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "must_change_bha_before_enlargement", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Necessária troca de BHA antes de se perfurar alargando"
+    }, 
+    "drilling/bottom_hole_drilling": {
+        "phases": [], 
+        "name": "drilling/bottom_hole_drilling", 
+        "label": "Bottom hole drilling"
+    }, 
+    "coating_liner_diameter": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "coating_liner_diameter", 
+        "valueType": "number", 
+        "label": "Diâmetro do Revest./Liner", 
+        "number/unit": "pol", 
+        "cardinality": "one"
+    }, 
+    "drilling/pilot_well_drilling_rate": {
+        "phases": [], 
+        "name": "drilling/pilot_well_drilling_rate", 
+        "valueType": "number", 
+        "label": "Taxa de Perfuração", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "element/end": {
+        "phases": [], 
+        "name": "element/end", 
+        "valueType": "number", 
+        "label": "Até", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }, 
+    "coating": {
+        "valueType": "ref", 
+        "enum/values": [
+            "coating/coating"
+        ], 
+        "name": "coating", 
+        "phases": [
+            "one", 
+            "two", 
+            "two"
+        ], 
+        "label": "Revestimento"
+    }, 
+    "drilling/project_type": {
+        "valueType": "ref", 
+        "user_managed": true, 
+        "name": "drilling/project_type", 
+        "phases": [], 
+        "enum/values": [
+            ""
+        ]
+    }, 
+    "drilling/navigate_with_bop_at_bottom": {
+        "phases": [], 
+        "name": "drilling/navigate_with_bop_at_bottom", 
+        "label": "Navegação com BOP no fundo?"
+    }, 
+    "drilling/custom_phase": {
+        "phases": [], 
+        "name": "drilling/custom_phase", 
+        "label": "Iniciar Fase"
+    }, 
+    "drilling/pilot_well_for_investigation": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "drilling/pilot_well_for_investigation", 
+        "phases": [], 
+        "label": "Será realizado poço piloto p/ investigação de dados de reservatório"
+    }, 
+    "tie_back": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "tie_back", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Tie Back"
+    }, 
+    "well_diameter": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "well_diameter", 
+        "valueType": "number", 
+        "label": "Diâmetro do poço", 
+        "number/unit": "pol", 
+        "cardinality": "one"
+    }, 
+    "drilling/time_config": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/time_config", 
+        "phases": [], 
+        "label": "Time Config"
+    }, 
+    "openwell_maneuver_tax": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "openwell_maneuver_tax", 
+        "valueType": "number", 
+        "label": "Taxa de manobra a poço aberto", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "coating_diameter": {
+        "phases": [
+            "one", 
+            "two"
+        ], 
+        "name": "coating_diameter", 
+        "valueType": "number", 
+        "label": "Diâmetro do Revestimento", 
+        "number/unit": "pol", 
+        "cardinality": "one"
+    }, 
+    "coatedwell_maneuver_tax": {
+        "phases": [
+            "one", 
+            "two", 
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "coatedwell_maneuver_tax", 
+        "valueType": "number", 
+        "label": "Taxa de manobra a poço revestido", 
+        "number/unit": "m/h", 
+        "cardinality": "one"
+    }, 
+    "drilling/start_from_phase": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/start_from_phase", 
+        "phases": [], 
+        "label": "Start from phase"
+    }, 
+    "test_bop_chrt": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "test_bop_chrt", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Teste de BOP contra CHRT"
+    }, 
+    "choke_drill": {
+        "valueType": "boolean", 
+        "cardinality": "one", 
+        "name": "choke_drill", 
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "label": "Choke Drill"
+    }, 
+    "drilling/project_type/options": {
+        "phases": [], 
+        "name": "drilling/project_type/options", 
+        "valueType": "ref", 
+        "enum/values": [
+            "drilling/no_reentry", 
+            "drilling/navigate_with_bop_at_bottom"
+        ], 
+        "user_managed": true, 
+        "cardinality": "one"
+    }, 
+    "drilling/statistical_time": {
+        "valueType": "number", 
+        "cardinality": "one", 
+        "name": "drilling/statistical_time", 
+        "phases": [], 
+        "label": "Statistical time"
+    }, 
+    "top_coring": {
+        "phases": [
+            "three", 
+            "four", 
+            "five", 
+            "six", 
+            "seven", 
+            "eight", 
+            "nine"
+        ], 
+        "name": "top_coring", 
+        "valueType": "number", 
+        "label": "Topo da testemunhagem", 
+        "number/unit": "m", 
+        "cardinality": "one"
+    }
+}
